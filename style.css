@@ -109,3 +109,44 @@
     filter: blur(20px) sepia(20%);
 }
 
+.ex-8-img:hover{
+    transition: 5s;
+    filter: blur(10px) grayscale(100%);
+    border-radius: 20%
+}
+
+.ex-9-img:hover{
+    transition: 5s;
+    filter: blur(5px) grayscale(100%);
+    width: 800px
+}
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: spin 1s linear infinite;
+    animation-name: 1s revert;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(330deg);
+    }
+    0%{
+        transform: rotate(0);
+    }
+}
