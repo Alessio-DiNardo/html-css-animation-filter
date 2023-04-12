@@ -143,10 +143,25 @@
     0%{
         transform: rotate(0);
     }
-    100%{
+    90%{
         transform: rotate(330deg);
     }
-    0%{
+    100%{
         transform: rotate(0);
+    }
+}
+
+
+.ex-12-button:hover {
+
+    animation-name: slide;
+}
+
+@keyframes slide{
+    0%{
+        transform: slide(0);
+    }
+    100%{
+        transform: slide(100deg);
     }
 }
