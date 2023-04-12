@@ -87,3 +87,15 @@
     transition: 4s;
     opacity: 0;
 }
+
+.ex-5-square:hover{
+    transition: 3s;
+    width: 200px;
+    height: 200px;
+}
+
+.ex-5-square:active{
+    transition: 4s;
+    width: 60px;
+    height: 60px;
+}
