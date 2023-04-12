@@ -152,9 +152,9 @@
 }
 
 
-.ex-12-button:hover {
+.ex-12-button:hover .ex-12-top-white{
 
-    animation-name: slide;
+    animation-name: slide 1s linear;
 }
 
 @keyframes slide{
